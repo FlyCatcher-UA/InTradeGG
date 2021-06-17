@@ -123,9 +123,7 @@ def first_stage():
                 elif cell.value == l_uni_komp[id_komp-1] and price2.value != None:
                     print(f"> {data_close.value} '{nomen.value}' - зі статусом {status.value} | заявлена ціна {price2.value} {v_price2.value} | {nice_price2.value}")
                     print("")
-                elif cell.value == l_uni_komp[id_komp-1]:
-                    print(f"> {data_close.value} '{nomen.value}' - зі статусом {status.value}")
-                    print("")
+                
                 if cell.value == l_uni_komp[id_komp-1] and price2.value != None:
                     l_nomenklatur.append(nomen2.value.title())
                     l_price_nomenklatur.append(price2.value)
@@ -140,9 +138,7 @@ def first_stage():
                 elif cell.value == l_uni_komp[id_komp-1] and price3.value != None:
                     print(f"> {data_close.value} '{nomen.value}' - зі статусом {status.value} | заявлена ціна {price3.value} {v_price3.value} | {nice_price3.value}")
                     print("")
-                elif cell.value == l_uni_komp[id_komp-1]:
-                    print(f"> {data_close.value} '{nomen.value}' - зі статусом {status.value}")
-                    print("")
+                
                 if cell.value == l_uni_komp[id_komp-1] and price3.value != None:
                     l_nomenklatur.append(nomen3.value.title())
                     l_price_nomenklatur.append(price3.value)
