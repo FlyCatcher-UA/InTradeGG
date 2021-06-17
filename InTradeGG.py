@@ -3,7 +3,7 @@ import openpyxl
 
 
 # читаем excel-файл
-wb = openpyxl.load_workbook('/Users/PREDATOR/Desktop/dbInTradeGG.xlsx')
+wb = openpyxl.load_workbook('dbInTradeGG.xlsx')
 
 # печатаем список листов
 # sheets = wb.sheetnames
