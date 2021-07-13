@@ -243,6 +243,10 @@ def second_stage():
     while flag3:
         l_price_tovar_DAP=[]
         l_price_tovar_FCA=[]
+        al_price_tovar_DAP=[]
+        al_price_tovar_FCA=[]
+        
+        
         id_nomenklatury = input("Введіть ID номенклатури, або 0 для виходу: ")
         print("----------------------------------------")
         if id_nomenklatury == "0":
@@ -278,6 +282,10 @@ def second_stage():
                         l_price_tovar_DAP.append(price1.value)                        
                     if v_price1.value == "FCA" and (nice_price1.value == "Так" or nice_price1.value == "так"  or nice_price1.value == "ТАК"):
                         l_price_tovar_FCA.append(price1.value)
+                    if v_price1.value == "DAP" and (nice_price1.value == None or nice_price1.value == "ні"  or nice_price1.value == "Ні" or nice_price1.value == "НІ"):
+                        al_price_tovar_DAP.append(price1.value)                        
+                    if v_price1.value == "FCA" and (nice_price1.value == None or nice_price1.value == "ні"  or nice_price1.value == "Ні" or nice_price1.value == "НІ"):
+                        al_price_tovar_FCA.append(price1.value)
                         
                         
                 if nomen2.value != None and nomen2.value.title() == l_uni_tovars[int(id_nomenklatury)-1]:
@@ -287,6 +295,10 @@ def second_stage():
                         l_price_tovar_DAP.append(price2.value)                        
                     if v_price2.value == "FCA" and (nice_price2.value == "Так" or nice_price2.value == "так"  or nice_price2.value == "ТАК"):
                         l_price_tovar_FCA.append(price2.value)
+                    if v_price2.value == "DAP" and (nice_price2.value == None or nice_price2.value == "ні"  or nice_price2.value == "Ні" or nice_price2.value == "НІ"):
+                        al_price_tovar_DAP.append(price2.value)                        
+                    if v_price2.value == "FCA" and (nice_price2.value == None or nice_price2.value == "ні"  or nice_price2.value == "Ні" or nice_price2.value == "НІ"):
+                        al_price_tovar_FCA.append(price2.value)
                         
                         
                 if nomen3.value != None and nomen3.value.title() == l_uni_tovars[int(id_nomenklatury)-1]:
@@ -296,6 +308,10 @@ def second_stage():
                         l_price_tovar_DAP.append(price3.value)                        
                     if v_price3.value == "FCA" and (nice_price3.value == "Так" or nice_price3.value == "так"  or nice_price3.value == "ТАК"):
                         l_price_tovar_FCA.append(price3.value)
+                    if v_price3.value == "DAP" and (nice_price3.value == None or nice_price3.value == "ні"  or nice_price3.value == "Ні" or nice_price3.value == "НІ"):
+                        al_price_tovar_DAP.append(price3.value)                        
+                    if v_price3.value == "FCA" and (nice_price3.value == None or nice_price3.value == "ні"  or nice_price3.value == "Ні" or nice_price3.value == "НІ"):
+                        al_price_tovar_FCA.append(price3.value)
                         
             
             if len(l_price_tovar_DAP) > 0:
@@ -305,12 +321,18 @@ def second_stage():
                 print(f"Мінімальна ціна DAP яка пройшла - {min(l_price_tovar_DAP)}")
                 print(f"Остання ціна DAP яка пройшла - {l_price_tovar_DAP[0]}")
                 print("")
+            if len(al_price_tovar_DAP) > 0:
+                print(f"Мінімальна ціна DAP (незалежно від статусу) - {min(al_price_tovar_DAP)}")
+                print("")
             if len(l_price_tovar_FCA) > 0:
                 print("----------------------------------------")
                 print(f"Середня ціна FCA за весь період - {round(sum(l_price_tovar_FCA)/len(l_price_tovar_FCA), 2)}")
                 print(f"Максимальна ціна FCA яка пройшла - {max(l_price_tovar_FCA)}")
                 print(f"Мінімальна ціна FCA яка пройшла - {min(l_price_tovar_FCA)}")
                 print(f"Остання ціна FCA яка пройшла - {l_price_tovar_FCA[0]}")
+                print("")
+            if len(al_price_tovar_FCA) > 0:    
+                print(f"Мінімальна ціна FCA (незалежно від статусу) - {min(al_price_tovar_FCA)}")
                 print("")
         else:
             print("Такого ID немає.")
