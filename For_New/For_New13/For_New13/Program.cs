@@ -10,10 +10,11 @@ namespace For_New13
     {
         static void Main(string[] args)
         {
+            Console.Clear();
             Console.WriteLine("Num 1: ");
-            int a = int.Parse(Console.ReadLine());
+            double a = double.Parse(Console.ReadLine());
             Console.WriteLine("Num 2: ");
-            int b = int.Parse(Console.ReadLine());
+            double b = double.Parse(Console.ReadLine());
             Console.WriteLine("+, -, *, /, ");
             string x = Console.ReadLine();
 
@@ -29,7 +30,14 @@ namespace For_New13
                     Console.WriteLine(a * b);
                     break;
                 case "/":
-                    Console.WriteLine(a / b);
+                    if (b==0)
+                    {
+                        Console.WriteLine(0);
+                    }
+                    else
+                    {
+                        Console.WriteLine(a / b);
+                    }
                     break;
                 default:
                     break;
@@ -57,7 +65,7 @@ namespace For_New13
             //{
             //    Console.WriteLine(a / b);
             //}
-            //Console.ReadKey();
+            Console.ReadKey();
 
 
 
