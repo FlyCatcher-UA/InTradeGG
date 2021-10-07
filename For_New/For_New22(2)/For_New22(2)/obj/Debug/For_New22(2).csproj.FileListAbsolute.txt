@@ -1,0 +1,7 @@
+C:\Users\PREDATOR\Desktop\GIT-Repo\InTradeGG\For_New\For_New22(2)\For_New22(2)\bin\Debug\For_New22(2).exe.config
+C:\Users\PREDATOR\Desktop\GIT-Repo\InTradeGG\For_New\For_New22(2)\For_New22(2)\bin\Debug\For_New22(2).exe
+C:\Users\PREDATOR\Desktop\GIT-Repo\InTradeGG\For_New\For_New22(2)\For_New22(2)\bin\Debug\For_New22(2).pdb
+C:\Users\PREDATOR\Desktop\GIT-Repo\InTradeGG\For_New\For_New22(2)\For_New22(2)\obj\Debug\For_New22(2).csproj.AssemblyReference.cache
+C:\Users\PREDATOR\Desktop\GIT-Repo\InTradeGG\For_New\For_New22(2)\For_New22(2)\obj\Debug\For_New22(2).csproj.CoreCompileInputs.cache
+C:\Users\PREDATOR\Desktop\GIT-Repo\InTradeGG\For_New\For_New22(2)\For_New22(2)\obj\Debug\For_New22(2).exe
+C:\Users\PREDATOR\Desktop\GIT-Repo\InTradeGG\For_New\For_New22(2)\For_New22(2)\obj\Debug\For_New22(2).pdb
