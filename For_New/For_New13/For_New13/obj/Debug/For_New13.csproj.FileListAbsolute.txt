@@ -1,7 +1,0 @@
-C:\Users\PREDATOR\Desktop\GIT-Repo\InTradeGG\For_New\For_New13\For_New13\bin\Debug\For_New13.exe.config
-C:\Users\PREDATOR\Desktop\GIT-Repo\InTradeGG\For_New\For_New13\For_New13\bin\Debug\For_New13.exe
-C:\Users\PREDATOR\Desktop\GIT-Repo\InTradeGG\For_New\For_New13\For_New13\bin\Debug\For_New13.pdb
-C:\Users\PREDATOR\Desktop\GIT-Repo\InTradeGG\For_New\For_New13\For_New13\obj\Debug\For_New13.csproj.AssemblyReference.cache
-C:\Users\PREDATOR\Desktop\GIT-Repo\InTradeGG\For_New\For_New13\For_New13\obj\Debug\For_New13.csproj.CoreCompileInputs.cache
-C:\Users\PREDATOR\Desktop\GIT-Repo\InTradeGG\For_New\For_New13\For_New13\obj\Debug\For_New13.exe
-C:\Users\PREDATOR\Desktop\GIT-Repo\InTradeGG\For_New\For_New13\For_New13\obj\Debug\For_New13.pdb
